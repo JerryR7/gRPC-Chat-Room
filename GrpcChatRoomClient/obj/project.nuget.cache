@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "H/gtquI7I9yeV6WN+iFk/0c8SR7IKc+0t5tiK2uaZ0FUoTmpymMDjYHgnApC0AlI0KNEZMbuJMZ3PH2AB+RyRA==",
+  "success": true,
+  "projectFilePath": "/Users/linyuting/Projects/gRPC-Chat-Room/GrpcChatRoomClient/GrpcChatRoomClient.csproj",
+  "expectedPackageFiles": [
+    "/Users/linyuting/.nuget/packages/google.protobuf/3.25.0/google.protobuf.3.25.0.nupkg.sha512",
+    "/Users/linyuting/.nuget/packages/grpc.core.api/2.59.0/grpc.core.api.2.59.0.nupkg.sha512",
+    "/Users/linyuting/.nuget/packages/grpc.net.client/2.59.0/grpc.net.client.2.59.0.nupkg.sha512",
+    "/Users/linyuting/.nuget/packages/grpc.net.common/2.59.0/grpc.net.common.2.59.0.nupkg.sha512",
+    "/Users/linyuting/.nuget/packages/grpc.tools/2.59.0/grpc.tools.2.59.0.nupkg.sha512",
+    "/Users/linyuting/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

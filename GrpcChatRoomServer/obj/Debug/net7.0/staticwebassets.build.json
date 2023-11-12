@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uhchyibQH1iaPr07cnwBoLKZG/oo/AW871U0GQu+X5M=",
+  "Source": "GrpcChatRoomServer",
+  "BasePath": "_content/GrpcChatRoomServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcChatRoomServer", "GrpcChatRoomServer\GrpcChatRoomServer.csproj", "{F43B222F-15EA-46AA-97D7-5C9A6387047D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcChatRoomClient", "GrpcChatRoomClient\GrpcChatRoomClient.csproj", "{BAC12CBD-2D82-4A03-889F-769EFAEA2AE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F43B222F-15EA-46AA-97D7-5C9A6387047D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43B222F-15EA-46AA-97D7-5C9A6387047D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43B222F-15EA-46AA-97D7-5C9A6387047D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43B222F-15EA-46AA-97D7-5C9A6387047D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC12CBD-2D82-4A03-889F-769EFAEA2AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC12CBD-2D82-4A03-889F-769EFAEA2AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC12CBD-2D82-4A03-889F-769EFAEA2AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC12CBD-2D82-4A03-889F-769EFAEA2AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

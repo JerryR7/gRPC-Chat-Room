@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+option csharp_namespace = "GrpcChatRoom";
+
+package chat;
+
+service ChatRoom {
+  rpc Create(CreateChatRoomRequest) returns (CreateChatRoomResponse);
+  rpc Join(stream MessageRequest) returns (stream BroadcastMessage);
+}
+
+message CreateChatRoomRequest {
+  string chatRoomName = 1;
+}
+
+message CreateChatRoomResponse {
+  bool success = 1;
+  string chatRoomId = 2;
+}
+
+message MessageRequest {
+  string userId = 1;
+  string name = 2;
+  string message = 3;
+}
+
+message BroadcastMessage {
+  string speaker = 1;
+  google.protobuf.Timestamp time = 2;
+  string message = 3;
+}
