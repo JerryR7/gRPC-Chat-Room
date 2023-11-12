@@ -4,7 +4,7 @@ using GrpcChatRoom;
 
 if (args.Length < 2)
 {
-    Console.WriteLine("Syntax: grpc-chat-client http://localhost:5040 userName");
+    Console.WriteLine("Syntax: dotnet GrpcChatRoomClient.dll http://localhost:5040 userName");
     return;
 }
 
