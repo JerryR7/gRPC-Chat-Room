@@ -44,7 +44,7 @@ GrpcChatRoom is a simple, yet powerful chat room application built using .NET 7.
 3. **Start the Server**
 
     ```bash
-    dotnet run --project GrpcChatServer
+    dotnet run --project GrpcChatRoomServer
     ```
 
 4. **Join the Chat Room (Client)**
